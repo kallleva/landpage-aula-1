@@ -213,3 +213,25 @@ img {
     opacity: 1;
     top: 50%;
 }
+
+
+/* FEEDBACKS */
+.review small {
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--c-brand);
+}
+
+.review-header {
+    position: relative;
+}
+
+.review-header::after {
+    content: "";
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    bottom: -14px;
+    background-color: white;
+    transform: rotate(45deg);
+}
